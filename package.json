@@ -1,0 +1,35 @@
+{
+  "name": "node-babel-boilerplate",
+  "version": "1.0.0",
+  "description": "Node Babel BoilerPlate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "bunyan": "^1.8.12",
+    "bunyan-format": "^0.2.1",
+    "bunyan-rotating-file-stream": "^1.6.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "moment": "^2.22.2",
+    "moment-timezone": "^0.5.23",
+    "nconf": "^0.10.0",
+    "request": "^2.88.0",
+    "underscore": "^1.9.1",
+    "xpath": "0.0.27"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/register": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "nodemon": "^1.18.5"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "PORT": 3000,
+  "LOGGER_LEVEL": "info",
+  "LOG_FILE_FULL_PATH":"/tmp/logs/node-babel-boilerplate.%F.log",
+  "LOG_FILE_ROTATE_PERIOD": "1d",
+  "LOG_FILE_RETAIN_NUMBER_OF_FILES": "10",
+  "LOG_FILE_ROTATE_THRESHOLD_SIZE": "20m",
+  "LOG_FILES_TOTALSIZE": "500m"
+}
